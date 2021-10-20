@@ -1,0 +1,15 @@
+create table Abi(id  serial primary key,
+                 fname varchar(255),
+                 lname varchar(255),
+                 city varchar(255),
+                 age varchar (255)
+  );
+  
+  
+insert into Abi values( 1,'rufus', 'oluwatuyi', 'akure',null);
+insert into Abi values(2, 'bimbo', 'akinbolagbe', 'ibadan',null);
+insert into Abi values(3, 'opeyemi', 'akomolafe', 'ado-ekiti',42);
+insert into Abi values( 4,'buky', 'oni', 'usi',39);
+insert into Abi values( 5,'tamilore', 'Abidakun', 'houston',6);
+insert into Abi values(6, 'tinuola', 'abidakun', 'belize',9);
+insert into Abi values( 7,'vivian', 'fonteneaux', 'houston',47);
